@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: rgba(39, 39, 39, 1);
+}
+
+.primary-contents-width {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.primary-btn {
+  padding: 15px 36px;
+  background: #E55473;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+span {
+  color: rgba(229, 84, 115, 1);
+}
+
+.header-part {
+  height: 550px;
+  background: rgba(229, 84, 115, 0.10);
+}
+
+.all-header-contents {
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+}
+
+.header-texts {
+  padding-top: 70px;
+  flex: 70%;
+  text-align: left;
+  padding-bottom: 70px;
+}
+
+.header-texts h1 {
+  font-weight: 900;
+  font-size: 55px;
+  padding-bottom: 13px;
+}
+
+.header-texts p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.header-image {
+  flex: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-flower-sect {
+  height: 700px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.featured-flower-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.featured-flower-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  gap: 20px;
+}
+
+.featured-image {
+  flex: 25%;
+  width: 40px;
+  height: 100%;
+  border-radius: 300px 300px 0px 0px;
+  padding: 50px 50px 0 50px;
+}
+
+.first-featured-image {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.second-featured-image {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.third-featured-image {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-title {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-flower-title p {
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.support-section-container {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 0 70px;
+  margin-bottom: 70px;
+}
+
+.supprot-section-container img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.supprot-section-container p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hot-deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 500px;
+  text-align: center;
+}
+
+.hot-deal-contents {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  align-items: center;
+}
+
+.hot-deal-contents h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.hot-deal-contents p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.instagram-sect {
+  height: 520px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.instagram-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.instagram-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.insta-container {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.insta-image-1,
+.insta-image-2,
+.insta-image-3,
+.insta-image-4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.get-latest-deal-sec {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.get-deal-input {
+  border-radius: 8px;
+  background-image: url('../images/get-deal-bg.png');
+  background-color: lightgray;
+  background-size: cover;
+  height: 55vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-deal-input h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.get-deal-input p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.get-deal-input input {
+  width: 450px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FFF;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-part {
+  height: 420px;
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-part h1 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.footer-part p {
+  font-weight: 400;
+  font-size: 11px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.9);
+  font-stretch: semi-expanded;
+}
+
+.footer-part small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.4)
+}
