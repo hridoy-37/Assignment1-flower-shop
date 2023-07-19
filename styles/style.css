@@ -127,12 +127,12 @@ span {
   margin-bottom: 70px;
 }
 
-.supprot-section-container img {
+.support-section-container img {
   width: 50px;
   padding-bottom: 10px;
 }
 
-.supprot-section-container p {
+.support-section-container p {
   font-weight: 600;
   font-size: 16px;
 }
@@ -205,7 +205,7 @@ span {
 
 .get-deal-input {
   border-radius: 8px;
-  background-image: url('../images/get-deal-bg.png');
+  background-image: url('../styles/Rectangle\ 9.png');
   background-color: lightgray;
   background-size: cover;
   height: 55vh;
